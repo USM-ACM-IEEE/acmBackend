@@ -19,15 +19,25 @@
 
 3. Ensure the database is running on your computer whether it is mysql or
 another supported dialect
-   + Note that you need to make [Database Config](./config/database-config.json)
-   reflect your setup after initalizing it bellow
    + Following the global installs in step 2 run the Following
    ```
    sequelize init:config
    sequelize db:create
    sequelize db:migrate
    ```
-
+   + Note if you are using sqlite3 you should create a data folder and edit your database-config.json for development to be the following:
+   ```
+   development: {
+     "storage": "data/dev-db.sqlite3",
+     "dialect": "sqlite"
+   }
+   ```
+   + Then you need to create the data folder and create the sqlite3 database with the following commands:
+   ```
+   mkdir data
+   sqlite3 data/dev-db.sqlite3
+   ```
+   + This will create the database. (Note you must have done npm install -g sqlite3 earlier to do this)
 4. **Optional:** If you wish to set up the envirment for testing and for using
 squelize install the following globally
 

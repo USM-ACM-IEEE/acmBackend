@@ -8,10 +8,6 @@ const cookieParser = require('cookie-parser');
 const config = require('./config');
 const passport = require('passport');
 require('./passport')(passport);
-const experiment = require('./routes/expirement');
-const target = require('./routes/target');
-const user = require('./routes/user');
-const citation = require('./routes/citation');
 
 const env = process.env.NODE_ENV || 'development';
 
@@ -40,17 +36,10 @@ app.use(function(req, res, next) {
 // Testing route to ensure server is up
 app.get('/', (req, res) => {
   res.json({
-    'Welcome to the CSC 424 API': '',
+    'Welcome to the USM ACM API': '',
     'uptime': `${process.uptime()}`,
   });
 });
-
-// when we get ready to authenticate we can use this guy
-// const authenticate = passport.authenticate('jwt', {session: false});
-app.use('/experiment', experiment);
-app.use('/citation', citation);
-app.use('/target', target);
-app.use('/user', user);
 
 // error handler
 // no stacktraces leaked to user unless in development environment
