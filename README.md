@@ -25,6 +25,7 @@ another supported dialect
    sequelize db:create
    sequelize db:migrate
    ```
+   + Note: If you are getting an error about not finding migrations, create a migrations folder with ``` mkdir migrations ``` and you should be fine.
    + Note if you are using sqlite3 you should create a data folder and edit your database-config.json for development to be the following:
    ```
    development: {
