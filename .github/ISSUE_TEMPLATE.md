@@ -1,14 +1,14 @@
 # ACM Website
 
-Before opening a new issue, please take a moment to review our [**community guidelines**](https://github.com/USM-ACM/acmWebsite/blob/master/.github/CONTRIBUTING.md) to make the contribution process easy and effective for everyone involved.
+Before opening a new issue, please take a moment to review our [**community guidelines**](https://github.com/USM-ACM/acmBackend/blob/master/.github/CONTRIBUTING.md) to make the contribution process easy and effective for everyone involved.
 
 **Before opening a new issue, you may find an answer in already closed issues**:
-https://github.com/USM-ACM/acmWebsite/issues?q=is%3Aissue+is%3Aclosed
+https://github.com/USM-ACM/acmBackend/issues?q=is%3Aissue+is%3Aclosed
 
 ## Issue Type
 
-- [ ] Bug (https://github.com/USM-ACM/acmWebsite/blob/master/.github/CONTRIBUTING.md#bugs)
-- [ ] Feature (https://github.com/USM-ACM/acmWebsite/blob/master/.github/CONTRIBUTING.md#features)
+- [ ] Bug (https://github.com/USM-ACM/acmBackend/blob/master/.github/CONTRIBUTING.md#bugs)
+- [ ] Feature (https://github.com/USM-ACM/acmBackend/blob/master/.github/CONTRIBUTING.md#features)
 
 ## Description
 
@@ -20,6 +20,6 @@ https://github.com/USM-ACM/acmWebsite/issues?q=is%3Aissue+is%3Aclosed
 
 # Versions
 
-- acmWebsite (see `package.json`):
+- acmBackend (see `package.json`):
 - Node/NPM:6
 - Browser:

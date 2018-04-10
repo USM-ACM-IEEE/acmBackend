@@ -6,7 +6,7 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/USM-ACM/acmWebsite/issues) is
+The [issue tracker](https://github.com/USM-ACM/acmBackend/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests).
 
@@ -117,4 +117,4 @@ included in the project:
     with a clear title and description.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project
-owners to license your work under the terms of the [MIT License](https://github.com/USM-ACM/acmWebsite/blob/master/LICENSE.md).
+owners to license your work under the terms of the [MIT License](https://github.com/USM-ACM/acmBackend/blob/master/LICENSE.md).
