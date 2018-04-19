@@ -16,6 +16,10 @@
    npm install -g sequelize-cli
    npm install -g (mysql2 or sqlite3)
    ```
+    + If you are running node version > 7.0 you will need to do the following command if you wish to use sqlite
+      ```
+      npm install -g --unsafe-perm sqlite3
+      ```
 
 3. Ensure the database is running on your computer whether it is mysql or
 another supported dialect
