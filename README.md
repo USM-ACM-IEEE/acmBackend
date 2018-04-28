@@ -34,7 +34,7 @@ another supported dialect
    "development": {
      "storage": "data/dev-db.sqlite3",
      "dialect": "sqlite"
-   }
+   },
    ```
    + Then you need to create the data folder and create the sqlite3 database with the following commands:
    ```
